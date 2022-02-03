@@ -1,0 +1,191 @@
+*,
+*::before,
+*::after {
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+  margin: 0;
+}
+
+.taskComplete {
+  color: #b7b6bb;
+  text-decoration: line-through;
+  height: -webkit-fit-content;
+  height: -moz-fit-content;
+  height: fit-content;
+}
+
+.taskOnCourse {
+  color: #6e6c7b;
+  height: -webkit-fit-content;
+  height: -moz-fit-content;
+  height: fit-content;
+}
+
+.doneBtnOff {
+  height: -webkit-fit-content;
+  height: -moz-fit-content;
+  height: fit-content;
+  border-radius: 50px;
+  border-style: solid;
+  background: transparent;
+}
+
+.doneBtnOff .done path {
+  stroke: transparent;
+}
+
+.doneBtnOff:hover, .doneBtnOn:hover {
+  border-color: #77acfc;
+}
+
+.doneBtnOn {
+  background: -webkit-gradient(linear, left top, left bottom, from(#77acfc), to(#9b84f6));
+  background: linear-gradient(#77acfc, #9b84f6);
+  height: -webkit-fit-content;
+  height: -moz-fit-content;
+  height: fit-content;
+  border-radius: 50px;
+  border-style: solid;
+}
+
+.doneBtnOn .done path {
+  stroke: white;
+}
+
+.taskBoxLigth {
+  gap: 1rem;
+  display: -ms-grid;
+  display: grid;
+  -ms-grid-columns: 5% 85% 5%;
+      grid-template-columns: 5% 85% 5%;
+  height: 3.5rem;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  background-color: #ffffff;
+  padding-inline: 1rem;
+  width: 29rem;
+  margin-left: 0.5rem;
+  border-bottom: solid;
+  border-bottom-width: thin;
+  border-bottom-color: lightgray;
+  border-bottom-style: dotted;
+  cursor: -webkit-grab;
+  cursor: grab;
+}
+
+.crossBtn {
+  height: -webkit-fit-content;
+  height: -moz-fit-content;
+  height: fit-content;
+  background-color: transparent;
+  border-style: none;
+}
+
+input {
+  padding-inline: 1rem;
+  font-family: inherit;
+  font-weight: 400;
+}
+
+.taskBoxDark {
+  display: -ms-grid;
+  display: grid;
+  -ms-grid-columns: 5% 85% 5%;
+      grid-template-columns: 5% 85% 5%;
+  gap: 1rem;
+  cursor: -webkit-grab;
+  cursor: grab;
+  height: 3.5rem;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  background-color: #25273c;
+  padding-inline: 1rem;
+  width: 29rem;
+  margin-left: 0.5rem;
+  border-bottom: solid;
+  border-bottom-width: thin;
+  border-bottom-color: lightgray;
+  border-bottom-style: dotted;
+}
+
+.comandLine {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  padding-inline: 1rem;
+  height: 3rem;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  font-family: inherit;
+}
+
+.itemsLeft {
+  color: lightgray;
+}
+
+.allOn {
+  background-color: transparent;
+  border-style: none;
+  color: #9F9CF8;
+  font-family: inherit;
+  font-weight: 700;
+}
+
+.allOff {
+  background-color: transparent;
+  border-style: none;
+  color: lightgray;
+  font-family: inherit;
+  font-weight: 700;
+}
+
+.activeOff {
+  background-color: transparent;
+  border-style: none;
+  font-family: inherit;
+  font-weight: 700;
+  color: lightgray;
+}
+
+.activeOn {
+  background-color: transparent;
+  border-style: none;
+  font-family: inherit;
+  font-weight: 700;
+  color: #9F9CF8;
+}
+
+.completedOff {
+  background-color: transparent;
+  border-style: none;
+  font-family: inherit;
+  font-weight: 700;
+  color: lightgray;
+}
+
+.completedOn {
+  background-color: transparent;
+  border-style: none;
+  font-family: inherit;
+  font-weight: 700;
+  color: #9F9CF8;
+}
+
+.clearCompleted {
+  background-color: transparent;
+  border-style: none;
+  font-family: inherit;
+  font-weight: 700;
+  color: lightgray;
+}
+
+.clearCompleted:hover {
+  color: #9F9CF8;
+}
+/*# sourceMappingURL=task.css.map */
